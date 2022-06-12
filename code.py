@@ -9,9 +9,6 @@
 
 # # 01. 绘制面积图 - 近三十年各类枪支产量 - matplotlib 实现
 
-# In[56]:
-
-
 # 01. 读取并整理数据
 import pandas as pd
 data = pd.read_excel('MARKETS30 Years of Gun Manufacturing in America.xlsx')
@@ -47,9 +44,6 @@ plt.show()
 
 # # 02. 绘制地图 - 各州枪支产量 - pyecharts 实现
 
-# In[57]:
-
-
 import pandas as pd
 from pyecharts.charts import Map
 from pyecharts import options as opts
@@ -71,10 +65,3 @@ m = (Map(init_opts=opts.InitOpts(bg_color = '#1c1c1c',width='1000px',height='800
     )
 m.render_notebook()# 在jupyter notebook中显示图
 # m.render('gun_usa.html')也可以保存为网页格式
-
-
-# In[ ]:
-
-
-
-
