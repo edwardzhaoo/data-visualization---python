@@ -1,12 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
-
-
-
-
 # # 01. 绘制面积图 - 近三十年各类枪支产量 - matplotlib 实现
 
 # 01. 读取并整理数据
